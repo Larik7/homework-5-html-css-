@@ -261,9 +261,11 @@ img {
 }
 
 .features-container-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
   background-color: var(--team-bg-cl);
   margin-bottom: 30px;
   border-radius: 4px;
@@ -406,7 +408,6 @@ img {
   align-items: center;
   justify-content: center;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: var(--icon-clients);
