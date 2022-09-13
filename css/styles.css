@@ -185,6 +185,8 @@ img {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-header .link:hover,
@@ -241,6 +243,8 @@ img {
   color: var(--light-txt-cl);
   background-color: var(--btn-hero-cl);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -382,6 +386,8 @@ img {
   height: 44px;
   background-color: var(--main-bg-cl);
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover,
@@ -391,6 +397,8 @@ img {
 
 .socials-icon {
   fill: var(--icon-clients);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover .socials-icon,
@@ -449,6 +457,8 @@ img {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: var(--icon-clients);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -489,6 +499,8 @@ img {
 .address-item {
   font-style: normal;
   color: var(--light-txt-cl);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-second-alt-part {
@@ -505,6 +517,8 @@ img {
 .address-link {
   font-style: normal;
   color: var(--light-txt-cl-60);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-section .link:hover,
@@ -535,6 +549,8 @@ img {
   height: 44px;
   background-color: var(--footer-icon-bg-cl);
   border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-link:hover,
@@ -581,6 +597,8 @@ img {
   color: var(--main-txt-cl);
   background-color: var(--btn-filter-bg-cl);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button:hover,
