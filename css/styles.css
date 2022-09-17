@@ -621,6 +621,7 @@ img {
 
 .project-link {
   display: block;
+  transition: box-shadow var(--anim-slow);
 }
 
 .project-link:hover,
