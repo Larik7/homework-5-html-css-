@@ -395,7 +395,7 @@ img {
 
 .socials-icon {
   fill: var(--icon-clients);
-  transition: color var(--anim-slow);
+  transition: fill var(--anim-slow);
 }
 
 .socials-link:hover .socials-icon,
